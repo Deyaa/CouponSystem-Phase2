@@ -21,10 +21,13 @@ Customer - Can purchase coupon.
 
 **How to Work with the system?**
 
-1. Starting the system will load the BootstrapLogin clr, the BootstrapLogin will fill the db with data, and will display all the system logic with various cases
-2. The DailyRemoval will start to clear all expired coupons from db.
-3. You can see all the Api's by browse to the address http://localhost:8080/swagger-ui.html
-4. In order to test Web Api's, I prepared a collection test, you can use it from Postman, by importing the following address to postman    you can see all test of all api's. The   collection address is https://www.getpostman.com/collections/574addadca2ebe3f939a
+1. Run the system to start.
+1. The system will load the BootstrapLogin clr, the BootstrapLogin responsible for the following: 
+    * It will fill the db with data.
+    * iT will display all the system logic with various cases (Valid/Invalid cases).
+3. The DailyRemoval will start to clear all expired coupons from db.
+4. You can see all the Api's by browse to the address http://localhost:8080/swagger-ui.html
+5. In order to test Web Api's, I prepared a collection test, you can use it from Postman, by importing the following address to postman    you can see all test of all api's. The   collection address is https://www.getpostman.com/collections/574addadca2ebe3f939a
  for test the api's you should run the Login api and then the rest api's, because they use the login object.
 
 
