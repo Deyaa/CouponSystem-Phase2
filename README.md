@@ -8,16 +8,16 @@ Company - Can manage his coupons.
 Customer - Can purchase coupon.
 
 **Infra**:
-LoginManager - used as the first entry to the system - for login.
-Controllers - Web api's to manipulate the capalities system for all client types.
-ControllerAdvice (advice) - used to catch exception threw from the controllers.
-CommandLineRunner:
- * BootstrapLogin - This clr starts on the init of the system, the component will test all client services (Admin, Company, Customer)
+* LoginManager - used as the first entry to the system - for login.
+* Controllers - Web api's to manipulate the capalities system for all client types.
+* ControllerAdvice (advice) - used to catch exception threw from the controllers.
+* CommandLineRunner:
+   * BootstrapLogin - This clr starts on the init of the system, the component will test all client services (Admin, Company, Customer)
                     in addition to test the logic in various cases, it is also fill the db with appropriate data.
- * All the other clr - do testing for system features.
-Job (Daily Removal) - Runs every few second, and remove all expired coupons from the database.
-Repos - Responsible for working with the database.
-Services - Responsible for logic.
+   * All the other clr - do testing for system features.
+* Job (Daily Removal) - Runs every few second, and remove all expired coupons from the database.
+* Repos - Responsible for working with the database.
+* Services - Responsible for logic.
 
 **How to Work with the system?**
 
