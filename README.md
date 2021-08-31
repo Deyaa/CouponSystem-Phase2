@@ -8,7 +8,7 @@ Company - Can manage his coupons.
 Customer - Can purchase coupon.
 
 **Infra**:
-LoginManager - used as the first entry to the system - for login
+LoginManager - used as the first entry to the system - for login.
 Controllers - Web api's to manipulate the capalities system for all client types.
 ControllerAdvice (advice) - used to catch exception threw from the controllers.
 CommandLineRunner:
@@ -26,7 +26,7 @@ Services - Responsible for logic.
 3. You can see all the Api's by browse to the address http://localhost:8080/swagger-ui.html
 4. In order to test Web Api's, I prepared a collection test, you can use it from Postman, by importing the following address to postman    you can see all test of all api's. The   collection address is https://www.getpostman.com/collections/574addadca2ebe3f939a
  for test the api's you should run the Login api and then the rest api's, because they use the login object.
-6.  
+
 
 
 
