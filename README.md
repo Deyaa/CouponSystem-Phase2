@@ -2,10 +2,10 @@
 Java, Spring Boot, Spring Web
 
 **Bref**:
-The coupon system contains three client types: 
-Administrator - He can manages the companies and customers.
-Company - Can manage his coupons.
-Customer - Can purchase coupon.
+- The coupon system contains three client types: 
+  * Administrator - He can manages the companies and customers.
+  * Company - Can manage his coupons.
+  * Customer - Can purchase coupon.
 
 **Infra**:
 * LoginManager - used as the first entry to the system - for login.
